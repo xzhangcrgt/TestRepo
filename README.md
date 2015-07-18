@@ -9,4 +9,10 @@ My first testing repository
 	$git push -u origin master
 	
 	Branch out:
-	$git checkout -b newbranchname 
+	$git checkout -b newbranchname   #create a new branch
+	$git chechout master  #switch back to mater branch
+	$git push origin newbranchname  #push new branch in remote repository
+	
+	Remove branch:
+	$git branch -d branchname     # -D remove branch without being merged
+	$git push origin :branchname  # remove branch from remote depository
