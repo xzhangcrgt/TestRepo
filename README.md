@@ -16,3 +16,22 @@ My first testing repository
 	Remove branch:
 	$git branch -d branchname     # -D remove branch without being merged
 	$git push origin :branchname  # remove branch from remote depository
+	
+	Rebase or fastforward merge:
+	$git rebase master
+	
+	Revert vs. reset
+	$git revert #revert the previous commit, keep previous commit history
+	$git reset aCommit #delete the previous commit in staging area, but no change to local working directory
+	$git reset --hard aCommit #reset both working directory and staging area
+	
+	Clean: remove untrack file
+	$git clean -n   #display the files what clean will remove
+	$git clean -f   #remove untrack files
+	$git clean -df  #remove untrack files and untrack directories
+	
+	Generate github key
+	$git-keygen -t rsa -C "xzhang@crgt.com"
+	
+	
+	
