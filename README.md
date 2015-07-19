@@ -1,5 +1,3 @@
-# TestRepo
-My first testing repository
 
 #GIT Cheat Sheet
 	$git init
