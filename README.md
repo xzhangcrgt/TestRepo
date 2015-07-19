@@ -31,7 +31,7 @@
 	Generate github key
 	$git-keygen -t rsa -C "xzhang@crgt.com"
 	
-	# MongoDB Shell Command
+	#MongoDB Shell Command
 	> db show
 	> use ux-heuristics-dev
 	> show collections
