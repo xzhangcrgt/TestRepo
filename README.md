@@ -31,10 +31,15 @@
 	Generate github key
 	$git-keygen -t rsa -C "xzhang@crgt.com"
 	
+	Put local changes into stash for a pull, reapply after puu
+	$git stash
+	$git stash apply #wil merge the code in stash with code pulled from repository
+	
 #MongoDB Shell Command
 	> db show
 	> use ux-heuristics-dev
 	> show collections
 	> db.categories.find()
 	> db.categories.find().pretty()
+	> db.users.update({username:"xzhangcrgt"}, {$set:{roles:["user","admin"]}},{multi:true})
 	
