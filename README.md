@@ -35,6 +35,9 @@
 	$git stash
 	$git stash apply #wil merge the code in stash with code pulled from repository
 	
+	Yo generate new moduel
+	$yo meanjs:crud-module <module-name>
+	
 #MongoDB Shell Command
 	> db show
 	> use ux-heuristics-dev
