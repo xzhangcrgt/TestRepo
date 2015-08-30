@@ -45,4 +45,5 @@
 	> db.categories.find()
 	> db.categories.find().pretty()
 	> db.users.update({username:"xzhangcrgt"}, {$set:{roles:["user","admin"]}},{multi:true})
+	> db.colletion.remove({})
 	
